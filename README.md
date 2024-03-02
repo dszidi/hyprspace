@@ -9,6 +9,10 @@ This plugin aims to bridge NSWorkspace and Hyprland. The main objectives are as 
 - Talk to GNUstep preferably via NSNotification Center. (Does this need to be converted to ObjC++?)
 - Convert desktop portal events to the appropriate NSNotifications in GNUstep
 
+### Tips
+
+Look at how this plugin moves a window into the lower layer...
+- [`hyprwinwrap`](https://github.com/hyprwm/hyprland-plugins/blob/main/hyprwinwrap/main.cpp) support out of the box
 
 ## Original Plugin Template README...
 The goal of this repository is to create a robust `Hyprland` plugin template, with
