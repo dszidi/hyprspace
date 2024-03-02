@@ -1,5 +1,16 @@
-# Hyprland Plugin Template
+# Hyprspace
 
+This plugin aims to bridge NSWorkspace and Hyprland. The main objectives are as follows:
+
+- Provide Window Decorations
+- Eliminate requirement to press Alt key when dragging
+- Allow whatever app is configured to be the system menu to exist as a layer-shell
+- Allow whatever app is configured to be the dock to exist as a layer-shell
+- Talk to GNUstep preferably via NSNotification Center. (Does this need to be converted to ObjC++?)
+- Convert desktop portal events to the appropriate NSNotifications in GNUstep
+
+
+## Original Plugin Template README...
 The goal of this repository is to create a robust `Hyprland` plugin template, with
 - A working, extensible `Makefile`
 - [`hyprload`](https://github.com/Duckonaut/hyprload) support out of the box
