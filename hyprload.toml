@@ -1,10 +1,10 @@
 [example]
-description = "Example plugin"
-version = "1.0.0"
-author = "YOU"
+description = "Hyprspace plugin"
+version = "0.1.0"
+author = "Damian Szidiropulosz"
 
 [example.build]
-output = "example.so"
+output = "hyprspace.so"
 steps = [
     "make all",
 ]

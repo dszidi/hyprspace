@@ -87,7 +87,7 @@ APICALL EXPORT PLUGIN_DESCRIPTION_INFO PLUGIN_INIT(HANDLE handle) {
 
     HyprlandAPI::reloadConfig();
 
-    return {"example", "An example plugin", "YOU", "1.0"};
+    return {"hyprspace", "A bridge between NSWorkspace and hyprland", "Damian Szidiropulosz", "0.1.0"};
 }
 
 APICALL EXPORT void PLUGIN_EXIT() {

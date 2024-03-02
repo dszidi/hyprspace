@@ -4,7 +4,7 @@
 
 # This Makefile is not intended to be used directly, but rather as a template for your own plugin
 # Change the PLUGIN_NAME variable to the name of your plugin
-PLUGIN_NAME=example
+PLUGIN_NAME=Hyprspace
 
 # Enable parallel builds
 MAKEFLAGS := --jobs=$(shell nproc)
